@@ -43,4 +43,3 @@ def redirect(archive, ext):
     for i in ext_img:
         if ext == i:
             shutil.move(download+archive,img)
-
